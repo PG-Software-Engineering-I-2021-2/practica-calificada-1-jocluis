@@ -23,6 +23,7 @@
         <sonar.projectKey>PG-Software-Engineering-I-2021-2_practica-calificada-1-jocluis</sonar.projectKey>
         <sonar.organization>pg-software-engineering-i-2021-2</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+
     </properties>
 
 
