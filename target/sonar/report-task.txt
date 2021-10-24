@@ -3,5 +3,5 @@ projectKey=PG-Software-Engineering-I-2021-2_practica-calificada-1-jocluis
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.24170
 dashboardUrl=https://sonarcloud.io/dashboard?id=PG-Software-Engineering-I-2021-2_practica-calificada-1-jocluis
-ceTaskId=AXymJazlSqeFjQnIRc70
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXymJazlSqeFjQnIRc70
+ceTaskId=AXyv6sW4C24cFpFL6L5w
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXyv6sW4C24cFpFL6L5w

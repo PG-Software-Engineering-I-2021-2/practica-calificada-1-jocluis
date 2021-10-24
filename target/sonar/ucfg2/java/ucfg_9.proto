@@ -1,0 +1,41 @@
+
+scs.ing.software.practica.Oliver#obtenerStock(Ljava/lang/String;Ljava/lang/String;Lcs/ing/software/practica/Autor;)Im
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java) )("1*Ã
+
+1m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java+& +(,¸µ
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java+  +(%$
+%0cs.ing.software.practica.Libro"cs.ing.software.practica.Libro¨
+¥
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java+ +(2
+%1"Lcs.ing.software.practica.Libro#<init>(Ljava/lang/String;Ljava/lang/String;)V*&
+$
+%0cs.ing.software.practica.Libro*
+
+nombrejava.lang.String*
+
+aniojava.lang.StringÐ
+Í
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java+ +(3.
+libroxBuscarcs.ing.software.practica.Libro"__id*&
+$
+%0cs.ing.software.practica.Libroœ™
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java, ,(6	
+%2int"`cs.ing.software.practica.Libro#obtenerSotck(Ljava/lang/String;Lcs/ing/software/practica/Autor;)I*0
+.
+libroxBuscarcs.ing.software.practica.Libro*
+
+nombrejava.lang.String*)
+'
+autorcs.ing.software.practica.Autor2@obtenerSotck(Ljava/lang/String;Lcs/ing/software/practica/Autor;)"w
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java, ,(7
+"":
+nombrejava.lang.String:
+aniojava.lang.String:'
+autorcs.ing.software.practica.AutorB#!
+cs.ing.software.practica.Oliver
