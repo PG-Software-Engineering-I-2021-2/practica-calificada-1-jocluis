@@ -1,16 +1,16 @@
 
-Jcs.ing.software.practica.Estudiante#getPreferencias()Ljava/util/ArrayList;q
-gD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Estudiante.java, (;"1*ﬁ
-1q
-gD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Estudiante.java (“
-œ
-q
-gD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Estudiante.java (
-%0java.util.ArrayList"__id*9*7%
-#cs.ing.software.practica.Estudiante"
-preferencias"ê
-q
-gD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Estudiante.java (
-
-%0java.util.ArrayListB'%
-#cs.ing.software.practica.Estudiante
+:cs.ing.software.practica.Libro#getAnio()Ljava/lang/String;l
+bD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Libro.java ("1*º
+1l
+bD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Libro.java (Ω
+∫
+l
+bD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Libro.java (
+%0java.lang.String"__id*,** 
+cs.ing.software.practica.Libro"
+anio"à
+l
+bD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Libro.java (
+
+%0java.lang.StringB" 
+cs.ing.software.practica.Libro

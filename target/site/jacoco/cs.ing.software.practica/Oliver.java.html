@@ -2,57 +2,65 @@
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+
 
 public class Oliver {
 
     private static Oliver instance;
 
-<span class="nc" id="L11">    private Map&lt;Integer, Libro&gt; libros = new HashMap&lt;&gt;();</span>
-<span class="nc" id="L12">    private Map&lt;Integer, Autor&gt; autores = new HashMap&lt;&gt;();</span>
-<span class="nc" id="L13">    private Map&lt;Integer, Estudiante&gt; estudiantes = new HashMap&lt;&gt;();</span>
+<span class="fc" id="L13">    private Map&lt;Integer, Libro&gt; libros = new HashMap&lt;&gt;();</span>
+<span class="fc" id="L14">    private Map&lt;Integer, Estudiante&gt; estudiantes = new HashMap&lt;&gt;();</span>
 
     public Oliver()
-<span class="nc" id="L16">    {}</span>
-
-    public void registrarEstudiante(Integer id,String nombre,String email,String celular, ArrayList&lt;EstudiantePreferencia&gt; preferencias){
-<span class="nc" id="L19">        estudiantes.put(id, new Estudiante(nombre, email,celular,preferencias));</span>
-<span class="nc" id="L20">    }</span>
-
-    public void registrarAutor(Integer id,String nombre,String fechNacimiento){
-<span class="nc" id="L23">        autores.put(id, new Autor(nombre,fechNacimiento));</span>
-<span class="nc" id="L24">    }</span>
-
-
-
-    public ArrayList&lt;Libro&gt; buscarLibrosxAutor(String autor)
-    {
-<span class="nc" id="L30">            ArrayList&lt;Libro&gt; libros = new ArrayList&lt;Libro&gt;();</span>
-<span class="nc bnc" id="L31" title="All 2 branches missed.">            if(&quot;Somerville&quot;.equals(autor))</span>
-            {
-<span class="nc" id="L33">                libros.add(new Libro(&quot;Software Engineering 6th edition&quot;,&quot;2000&quot;));</span>
-<span class="nc" id="L34">                libros.add(new Libro(&quot;Software Engineering 7th edition&quot;,&quot;2001&quot;));</span>
-            }
-
-<span class="nc" id="L37">            return libros;</span>
-    }
-
-
-    public int obtenerStock(String nombre,String anio,Autor autor)
-    {
-<span class="nc" id="L43">        Libro libroxBuscar= new Libro(nombre,anio);</span>
-<span class="nc" id="L44">        return libroxBuscar.obtenerSotck(nombre,autor);</span>
-
-    }
-
-
-
+<span class="fc" id="L17">    {}</span>
 
     public static Oliver getInstance() {
-<span class="nc bnc" id="L52" title="All 2 branches missed.">        if(instance == null){</span>
-<span class="nc" id="L53">            instance = new Oliver();</span>
+<span class="fc bfc" id="L20" title="All 2 branches covered.">        if(instance == null){</span>
+<span class="fc" id="L21">            instance = new Oliver();</span>
         }
-<span class="nc" id="L55">        return instance;</span>
+<span class="fc" id="L23">        return instance;</span>
     }
+
+    public String registrarEstudiante(Integer id,String nombre,String email,String celular, List&lt;String&gt; preferencias){
+<span class="fc" id="L27">        Estudiante estudianteEntidad = new Estudiante(nombre, email,celular,preferencias);</span>
+<span class="fc" id="L28">        estudiantes.put(id, new Estudiante(nombre, email,celular,preferencias));</span>
+<span class="fc" id="L29">        return &quot;Se registro con exito el estudiante: &quot;+estudianteEntidad.getNombre()+&quot;-&quot;+estudianteEntidad.getEmail()+&quot;-&quot;+estudianteEntidad.getCelular();</span>
+    }
+
+    public String registrarLibro(Integer id,String nombre,String anio,Autor autor,int stockActual){
+<span class="fc" id="L33">        Libro entidadLibro= new Libro(nombre,anio,autor,stockActual);</span>
+<span class="fc" id="L34">        libros.put(id,entidadLibro);</span>
+<span class="fc" id="L35">        return &quot;Se registro con exito el libro: &quot;+entidadLibro.getNombre()+&quot;-&quot;+entidadLibro.getAnio()+&quot;-&quot;+entidadLibro.getStockActual();</span>
+    }
+
+    public String obtenerStock(String nombre,Autor autor)
+    {
+<span class="fc" id="L40">        int stockActual=0;</span>
+<span class="pc bpc" id="L41" title="1 of 2 branches missed.">        for (Map.Entry&lt;Integer, Libro&gt; entry : libros.entrySet()) {</span>
+<span class="nc bnc" id="L42" title="All 2 branches missed.">            if(entry.getValue().getAutor().equals(autor))</span>
+<span class="nc" id="L43">                stockActual=libros.get(entry.getKey()).getStockActual();</span>
+<span class="nc" id="L44">        }</span>
+<span class="fc" id="L45">        return stockActual+&quot; del &quot;+nombre;</span>
+    }
+
+
+
+    public List&lt;Estudiante&gt; noitificarEstudiantes() {
+<span class="fc" id="L51">        ArrayList&lt;Estudiante&gt; estudiantesNotificar = new ArrayList&lt;&gt;();</span>
+
+<span class="fc bfc" id="L53" title="All 2 branches covered.">        for (Map.Entry&lt;Integer, Estudiante&gt; entry : estudiantes.entrySet()) {</span>
+
+<span class="fc" id="L55">                Estudiante estudiante = estudiantes.get(entry.getKey());</span>
+<span class="fc" id="L56">                estudiante.enviarNotificacion(entry.getValue().getPreferencias());</span>
+<span class="fc" id="L57">                estudiantesNotificar.add(estudiante);</span>
+
+<span class="fc" id="L59">        }</span>
+
+<span class="fc" id="L61">        return estudiantesNotificar;</span>
+    }
+
+
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

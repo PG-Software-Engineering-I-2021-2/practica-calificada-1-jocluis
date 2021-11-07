@@ -13,15 +13,9 @@ public class Autor {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
 
     public String getFechNacimiento() {
         return fechNacimiento;
     }
 
-    public void setFechNacimiento(String fechNacimiento) {
-        this.fechNacimiento = fechNacimiento;
-    }
 }

@@ -1,17 +1,107 @@
 
-ccs.ing.software.practica.EstudiantePreferencia#getEstudiante()Lcs/ing/software/practica/Estudiante;|
-rD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/EstudiantePreferencia.java (#"1*¨
-1|
-rD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/EstudiantePreferencia.java (ö
-ó
-|
-rD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/EstudiantePreferencia.java ()
-%0#cs.ing.software.practica.Estudiante"__id*B*@0
-.cs.ing.software.practica.EstudiantePreferencia"
+šcs.ing.software.practica.Oliver#registrarLibro(Ljava/lang/Integer;Ljava/lang/String;Ljava/lang/String;Lcs/ing/software/practica/Autor;I)Ljava/lang/String;m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java   ( "1*²
+1m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java!& !(,¸µ
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java!  !(%$
+%0cs.ing.software.practica.Libro"cs.ing.software.practica.Libroü
+ù
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java! !(D
+%1"mcs.ing.software.practica.Libro#<init>(Ljava/lang/String;Ljava/lang/String;Lcs/ing/software/practica/Autor;I)V*&
+$
+%0cs.ing.software.practica.Libro*
+
+nombrejava.lang.String*
+
+aniojava.lang.String*)
+'
+autorcs.ing.software.practica.Autor*
+""Ð
+Í
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java! !(E.
+entidadLibrocs.ing.software.practica.Libro"__id*&
+$
+%0cs.ing.software.practica.Libro¾
+»
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java" "(
+%2java.util.Map"__id*/*-!
+cs.ing.software.practica.Oliver"
+libros†
+ƒ
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java" "(#$
+%3cs.ing.software.practica.Libro"__mapSet*
+
+%2java.util.Map*
+
+idjava.lang.Integer*0
+.
+entidadLibrocs.ing.software.practica.Libro‡„
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java#2 #(J
+%4java.lang.String"<cs.ing.software.practica.Libro#getNombre()Ljava/lang/String;*0
+.
+entidadLibrocs.ing.software.practica.Libro2getNombre()Ô
+Ñ
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java# #(J
+%5java.lang.String"__concat*$"
+ Se registro con exito el libro: *
+
+%4java.lang.Stringµ
+²
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java# #(N
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+-ƒ€
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java#O #(e
+%7java.lang.String":cs.ing.software.practica.Libro#getAnio()Ljava/lang/String;*0
+.
+entidadLibrocs.ing.software.practica.Libro2	getAnio()È
+Å
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java# #(e
+%8java.lang.String"__concat*
+
+%6java.lang.String*
+
+%7java.lang.Stringµ
+²
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java# #(i
+%9java.lang.String"__concat*
+
+%8java.lang.String*
+-õò
+n
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java#j #(‡
 
-estudiante"«
-|
-rD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/EstudiantePreferencia.java (+
-)
-%0#cs.ing.software.practica.EstudianteB20
-.cs.ing.software.practica.EstudiantePreferencia
+%10int"0cs.ing.software.practica.Libro#getStockActual()I*0
+.
+entidadLibrocs.ing.software.practica.Libro2getStockActual()¾
+»
+n
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java# #(‡
+%11java.lang.String"__concat*
+
+%9java.lang.String*
+
+
+%10int"‹
+n
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java# #(ˆ
+
+%11java.lang.String:
+idjava.lang.Integer:
+nombrejava.lang.String:
+aniojava.lang.String:'
+autorcs.ing.software.practica.Autor:
+""B#!
+cs.ing.software.practica.Oliver

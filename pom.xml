@@ -8,34 +8,22 @@
     <artifactId>practica-calificada-1-jocluis</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.3.0</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-api</artifactId>
-            <version>2.13.3</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.13.3</version>
-        </dependency>
-    </dependencies>
-
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
         <sonar.projectKey>PG-Software-Engineering-I-2021-2_practica-calificada-1-jocluis</sonar.projectKey>
         <sonar.organization>pg-software-engineering-i-2021-2</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>

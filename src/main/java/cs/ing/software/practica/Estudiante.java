@@ -1,14 +1,17 @@
 package cs.ing.software.practica;
 
-import java.util.ArrayList;
+import java.util.List;
+import java.util.logging.Logger;
+
 
 public class Estudiante {
+    private static Logger logger = Logger.getLogger(Estudiante.class.getName());
     private String nombre;
     private String email;
     private String celular;
-    private ArrayList<EstudiantePreferencia> preferencias;
+    private List<String> preferencias;
 
-    public Estudiante(String nombre,String email,String celular, ArrayList<EstudiantePreferencia> preferencias)
+    public Estudiante(String nombre,String email,String celular, List<String> preferencias)
     {
         this.nombre=nombre;
         this.email=email;
@@ -16,36 +19,30 @@ public class Estudiante {
         this.preferencias=preferencias;
     }
 
-    public ArrayList<EstudiantePreferencia> getPreferencias() {
+    public List<String> getPreferencias() {
         return preferencias;
     }
 
-    public void setPreferencias(ArrayList<EstudiantePreferencia> preferencias) {
-        this.preferencias = preferencias;
-    }
+
     public String getNombre() {
         return nombre;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
+
 
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
+
 
     public String getCelular() {
         return celular;
     }
 
-    public void setCelular(String celular) {
-        this.celular = celular;
+
+
+    public void enviarNotificacion(List<String> preferencias){
+        logger.info("Segun su lista de preferencia se envía la siguiente oferta..."+preferencias.size());
     }
-
-
 }

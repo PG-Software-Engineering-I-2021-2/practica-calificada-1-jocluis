@@ -1,16 +1,48 @@
 
-Jcs.ing.software.practica.EstudiantePreferencia#getTipo()Ljava/lang/String;|
-rD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/EstudiantePreferencia.java ("1*ü
-1|
-rD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/EstudiantePreferencia.java (Ý
-Ú
-|
-rD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/EstudiantePreferencia.java (
-%0java.lang.String"__id*<*:0
-.cs.ing.software.practica.EstudiantePreferencia"
-tipo"˜
-|
-rD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/EstudiantePreferencia.java (
-
-%0java.lang.StringB20
-.cs.ing.software.practica.EstudiantePreferencia
+Ncs.ing.software.practica.Oliver#getInstance()Lcs/ing/software/practica/Oliver;m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java ($"3*Ø
+2m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java (#º·
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java (!%
+%1cs.ing.software.practica.Oliver"cs.ing.software.practica.OliverÌ
+É
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java (#
+%2")cs.ing.software.practica.Oliver#<init>()V*'
+%
+%1cs.ing.software.practica.OliverÒ
+Ï
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java (#/!
+cs.ing.software.practica.Oliver"
+
+instance"__id*'
+%
+%1cs.ing.software.practica.Oliver*
+1*Ï
+3m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java (Ò
+Ï
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java (%
+%0cs.ing.software.practica.Oliver"__id*1*/!
+cs.ing.software.practica.Oliver"
+
+instance*
+2
+1*â
+1m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java (Ò
+Ï
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java (%
+%3cs.ing.software.practica.Oliver"__id*1*/!
+cs.ing.software.practica.Oliver"
+
+instance"˜
+m
+cD:/RepositorioJava/practica-calificada-1-jocluis/src/main/java/cs/ing/software/practica/Oliver.java ('
+%
+%3cs.ing.software.practica.OliverB#"!
+cs.ing.software.practica.Oliver

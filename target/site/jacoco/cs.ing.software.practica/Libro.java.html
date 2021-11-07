@@ -5,55 +5,33 @@ public class Libro {
     private String anio;
     private Autor autor;
     private int stockActual;
-    public Libro(String nombre,String anio)
-<span class="nc" id="L9">    {</span>
-<span class="nc" id="L10">        this.nombre=nombre;</span>
-<span class="nc" id="L11">        this.anio=anio;</span>
-<span class="nc" id="L12">    }</span>
-
-    public int obtenerSotck(String nombre,Autor autor)
-    {
-        //código para buscar por nombre o autor
-<span class="nc" id="L17">        int stock=0;</span>
-<span class="nc bnc" id="L18" title="All 2 branches missed.">        if(nombre.equals(&quot;Software Engineering 10th Edicion&quot;)) stock =0;</span>
-<span class="nc" id="L19">        else stock = 100;</span>
-
-<span class="nc" id="L21">        return stock;</span>
-    }
-
+    public Libro(String nombre,String anio,Autor autor,int stockActual)
+<span class="fc" id="L9">    {</span>
+<span class="fc" id="L10">        this.nombre=nombre;</span>
+<span class="fc" id="L11">        this.anio=anio;</span>
+<span class="fc" id="L12">        this.autor=autor;</span>
+<span class="fc" id="L13">        this.stockActual=stockActual;</span>
+<span class="fc" id="L14">    }</span>
 
 
     public Autor getAutor() {
-<span class="nc" id="L27">        return autor;</span>
+<span class="nc" id="L18">        return autor;</span>
     }
 
-    public void setAutor(Autor autor) {
-<span class="nc" id="L31">        this.autor = autor;</span>
-<span class="nc" id="L32">    }</span>
 
     public String getNombre() {
-<span class="nc" id="L35">        return nombre;</span>
+<span class="fc" id="L23">        return nombre;</span>
     }
-
-    public void setNombre(String nombre) {
-<span class="nc" id="L39">        this.nombre = nombre;</span>
-<span class="nc" id="L40">    }</span>
 
     public String getAnio() {
-<span class="nc" id="L43">        return anio;</span>
+<span class="fc" id="L27">        return anio;</span>
     }
-
-    public void setAnio(String anio) {
-<span class="nc" id="L47">        this.anio = anio;</span>
-<span class="nc" id="L48">    }</span>
 
 
     public int getStockActual() {
-<span class="nc" id="L52">        return stockActual;</span>
+<span class="fc" id="L32">        return stockActual;</span>
     }
 
-    public void setStockActual(int stockActual) {
-<span class="nc" id="L56">        this.stockActual = stockActual;</span>
-<span class="nc" id="L57">    }</span>
+
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>
